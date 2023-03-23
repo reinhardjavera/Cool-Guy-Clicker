@@ -1,1 +1,2 @@
-# Idle-Clicker
+Fitur :
+1) 
