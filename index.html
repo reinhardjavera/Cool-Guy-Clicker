@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Clicker Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="mainGame">
+
+  <nav class="navbar navbar-expand-lg" id="navbarIndex">
+    <a class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Main Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center mt-5">
+    <h1 class="mb-4">Idle Clicker Game</h1>
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <p>Clicks: <span id="clicks">0</span></p>
+        <button id="click-btn" class="btn btn-primary btn-lg">
+          <img src="img/modelclick.png" alt="Click Button">
+        </button>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <p>Auto Clickers: <span id="auto-clickers">0</span></p>
+        <button id="auto-clicker-btn" class="btn btn-success">Buy Auto Clicker - Cost: 500 clicks</button>
+      </div>
+
+      <div class="col-md-4">
+        <p>Multiplier: <span id="multiplier">1</span></p>
+        <button id="multiplier-btn" class="btn btn-info">Buy Multiplier - Cost: 20 clicks</button>
+      </div>
+    </div>
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
