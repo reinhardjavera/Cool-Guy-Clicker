@@ -8,6 +8,26 @@
     background-size: cover;
 }
 
+#click-btn {
+    border-color:black !important;
+    background-color: #e9912c;
+    
+
+}
+
+#click-btn:active {
+background-color: #a8671d;
+}
+
+#click-btn:visited {
+    background-color:#a8671d;
+}
+
+#click-btn:hover {
+    background-color: #ffa947;
+    transition: 0.3s;
+}
+
 #click-btn img {
     width: 100%;
     height: 100%;
@@ -17,6 +37,7 @@
 #footerAboutUs {
     background-color: rgb(219, 140, 50);
     color:aliceblue;
+    text-shadow: 3px 2px 1px rgb(112, 71, 38);
     padding: 1px;
     border-radius: 20px;
     padding-bottom: 10px;
@@ -26,6 +47,20 @@
 
 #footerReferences {
     background-color: rgb(219, 140, 50);
+    color:aliceblue;
+    text-shadow: 3px 2px 1px rgb(112, 71, 38);
+    padding: 1px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); 
+}
+
+#footerGameTitle {
+    background-color: rgb(219, 140, 50);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 2px 1px rgb(112, 71, 38);
     color:aliceblue;
     padding: 1px;
     border-radius: 20px;
@@ -40,11 +75,13 @@
     font-size:larger;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 2px 1px rgb(192, 132, 75);
 }
 
 #navbarIndex {
     background-color: rgb(235, 136, 80);
     font-size:larger;
+    text-shadow: 3px 2px 1px rgb(192, 132, 75);
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -73,26 +110,9 @@
     width: 300px;
 }
 
-/* #aboutUsRei {
-    padding-left: 200px;
-    padding-right: 50px;
+.card-img-top{
+    height: 300px
 }
-
-#aboutUsRio {
-    padding-right: 200px;
-    padding-left: 50px;
-
-}
-
-#aboutUsDaril {
-    padding-left: 200px;
-    padding-right: 50px;
-}
-
-#aboutUsTristan {
-    padding-right: 200px;
-    padding-left: 50px;
-} */
 
 #infoRei {
     font-size: larger;
@@ -112,4 +132,104 @@
 #infoTristan {
     font-size: larger;
     font-weight: 500;
+}
+
+
+#totalMoney {
+    color: rgb(255, 216, 44);
+    background-color: rgb(100, 69, 23);
+    border-radius: 8px;
+    text-shadow: 2px 2px 1px rgb(70, 33, 2);
+    padding-bottom: 1px;
+    padding-top: 10px;
+    font-size: larger;
+    box-shadow:0 1px 0 #ccc, 0 2px 0 #c4c0c0, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); 
+}
+
+#auto-clicker-btn {
+    background-color: rgb(255, 200, 81);
+    border-color: rgb(95, 72, 7);
+    color: black;
+    font-size: medium !important;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+#auto-clicker-btn:hover {
+    background-color: #885011;
+    color: #ffffff;
+    border-color: rgb(58, 37, 7);
+    transition: 0.3s;
+}
+
+#multiplier-btn {
+    background-color: rgb(255, 200, 81);
+    border-color: rgb(95, 72, 7);
+    color: black;
+    font-size: medium !important;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+#multiplier-btn:hover {
+    background-color: #885011;
+    color: #ffffff;
+    border-color: rgb(58, 37, 7);
+    transition: 0.3s;
+}
+
+#colNFT p {
+    color: white;
+    font-weight :large;
+    margin-top: 7px;
+    text-shadow: 3px 2px 1px rgb(110, 68, 33);
+}
+
+#shop-btn {
+    background-color: rgb(128, 34, 42);
+    border-color: rgb(71, 20, 4);
+    color: rgb(255, 255, 255);
+    font-size: medium !important;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+#shop-btn:hover {
+    background-color: #ff633b;
+    color: #0a0a0a;
+    border-color: rgb(100, 26, 16);
+    transition: 0.3s;
+}
+
+#upgrade1-btn {
+    background-color: #db8f3d;
+    color: rgb(0, 0, 0);
+    border-color:rgba(126, 67, 12, 0.973);
+    font-size: medium !important;
+    font-weight: 600;
+}
+
+#upgrade1-btn:hover {
+    background-color: #774c1c;
+    color:#ffffff;
+    border-color:rgb(54, 37, 12);
+    transition: 0.3s;
+}
+
+#upgrade2-btn {
+    background-color: #db8f3d;
+    color: rgb(0, 0, 0);
+    border-color:rgba(126, 67, 12, 0.973);
+    font-size: medium !important;
+    font-weight: 600;
+}
+
+#upgrade2-btn:hover {
+    background-color: #774c1c;
+    color:#ffffff;
+    border-color:rgb(54, 37, 12);
+    transition: 0.3s;
 }
