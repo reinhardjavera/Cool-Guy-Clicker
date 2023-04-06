@@ -7,8 +7,41 @@
     <title>Idle Clicker Game</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
-<body class="mainGame">
+  </head>
+  <body class="mainGame">
+    <audio autoplay loop>
+      <source src="bgm.mp3">  
+    </audio>
+
+  <!-- Modal -->
+  <div class="modal fade" id="shopModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Shop</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <button id="upgrade1-btn" class="btn btn-success border-2 mb-2">Buy Artifact - Rp100000</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <button id="upgrade2-btn" class="btn btn-success border-2">Hire an agent - Rp500000</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <br>
+      </div>
+      </div>
+    </div>
+    </div>
+  <!-- End of Modal -->
 
   <nav class="navbar navbar-expand-lg" id="navbarIndex">
     <a class="navbar-brand"></a>
@@ -27,28 +60,35 @@
     </div>
   </nav>
 
-  <div class="container-fluid text-center mt-5">
-    <h1 class="mb-4">Idle Clicker Game</h1>
-
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <p>Clicks: <span id="clicks">0</span></p>
-        <button id="click-btn" class="btn btn-primary btn-lg">
+  <div class="container text-center mt-5">
+    <div class="col mt-5 p-2">
+			<footer id="footerGameTitle">
+        <h1 class="mb-4 pt-3">Cool Guy Clicker</h1>
+			</footer>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-4 mb-3 mt-3" id="coolGuyButon" onclick="play()">
+      <audio autoplay id="audio" src="audio/cashRegister.mp3"></audio>
+        <footer id="totalMoney">
+          <p>Uang : Rp<span id="uang">0</span></p>
+        </footer>
+        <button id="click-btn" class="btn btn-primary btn-lg mt-4 border-2">
           <img src="img/modelclick.png" alt="Click Button">
         </button>
       </div>
-
-      <div class="col-md-4 mb-3">
-        <p>Auto Clickers: <span id="auto-clickers">0</span></p>
-        <button id="auto-clicker-btn" class="btn btn-success">Buy Auto Clicker - Cost: 500 clicks</button>
-      </div>
-
-      <div class="col-md-4">
-        <p>Multiplier: <span id="multiplier">1</span></p>
-        <button id="multiplier-btn" class="btn btn-info">Buy Multiplier - Cost: 20 clicks</button>
+      <div class="row">
+        <div class="col-md-4 mt-4">
+          <button id="auto-clicker-btn" class="btn btn-success border-2">Buy Auto Clicker - Rp. 10000</button>
+        </div>
+        <div class="col-md-4 mt-4" id="colNFT">
+          <button id="multiplier-btn" class="btn btn-info border-2">Buy NFT - Rp. 50 </button>
+          <p>Total NFT: <span id="multiplier">1</span></p>
+        </div>
+        <div class="col-md-4 mt-4">
+          <button id="shop-btn" class="btn btn-success border-2" data-bs-toggle="modal" data-bs-target="#shopModal">Upgrade Shop</button>
+        </div>
       </div>
     </div>
-
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Code/Visual Studio/Semester 2/Intro to Internet Technology/Tugas LAB/UTS PTI Idle Clicker",
-      "program": "d:/Code/Visual Studio/Semester 2/Intro to Internet Technology/Tugas LAB/UTS PTI Idle Clicker/build/Debug/outDebug",
+      "cwd": "d:/Code/Visual Studio/Semester 2/Intro to Internet Technology/Tugas LAB/UTS PTI Idle Clicker/Project-UTS-PTI-Idle-Clicker-",
+      "program": "d:/Code/Visual Studio/Semester 2/Intro to Internet Technology/Tugas LAB/UTS PTI Idle Clicker/Project-UTS-PTI-Idle-Clicker-/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
