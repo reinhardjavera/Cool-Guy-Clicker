@@ -8,7 +8,7 @@ Game Idle Clicker – Cool Guy Clicker
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Link Github : https://github.com/reinhardjavera/Project-UTS-PTI-Idle-Clicker-
+Link Github : [https://github.com/reinhardjavera/Project-UTS-PTI-Idle-Clicker-](https://github.com/reinhardjavera/UTS-PTI-CoolGuyClicker)
 
 Cool Guy Clicker merupakan sebuah game idle clicker berbasis website application, dimana user akan diberikan sebuah button untuk diklik dan akan menghasilkan mata uang yang dipakai untuk mengimprovisasi progressnya.
  
